@@ -24,7 +24,6 @@ jobs:
           npm run build
 
       - name: Sincronizza via FTP su Server Web
-        uses: S- name: Sincronizza via FTP su Server Web
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
